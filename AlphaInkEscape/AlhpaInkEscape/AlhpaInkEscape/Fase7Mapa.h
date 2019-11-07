@@ -65,7 +65,7 @@ int JogarFase7Mapa(ALLEGRO_DISPLAY* janela, ALLEGRO_EVENT_QUEUE* fila_eventos, P
 	campodireita->x = 1100;
 	campodireita->y = 350;
 
-//======================================IMAGENS=======================================================================
+	//======================================IMAGENS=======================================================================
 	Objeto* brasil;
 	brasil = (Objeto*)malloc(sizeof(Objeto));
 	brasil->bitmap = al_load_bitmap("Imgs/Brasil.png");
@@ -132,7 +132,7 @@ int JogarFase7Mapa(ALLEGRO_DISPLAY* janela, ALLEGRO_EVENT_QUEUE* fila_eventos, P
 	caixa4->x = 900;
 	caixa4->y = 550;
 
-//===========================================SETAS=================================================
+	//===========================================SETAS=================================================
 
 	Objeto* setacima1;
 	setacima1 = (Objeto*)malloc(sizeof(Objeto));
@@ -165,7 +165,7 @@ int JogarFase7Mapa(ALLEGRO_DISPLAY* janela, ALLEGRO_EVENT_QUEUE* fila_eventos, P
 	setacima4->largura = 100;
 	setacima4->x = 940;
 	setacima4->y = 530;
-//-------------------------------------BAIXO----------------------------------------------
+	//-------------------------------------BAIXO----------------------------------------------
 	Objeto* setabaixo1;
 	setabaixo1 = (Objeto*)malloc(sizeof(Objeto));
 	setabaixo1->bitmap = al_load_bitmap("Imgs/baixo.png");
@@ -198,15 +198,15 @@ int JogarFase7Mapa(ALLEGRO_DISPLAY* janela, ALLEGRO_EVENT_QUEUE* fila_eventos, P
 	setabaixo4->x = 940;
 	setabaixo4->y = 655;
 
-//---------------------------------------------------SETAS-------------------------------------------------------
+	//---------------------------------------------------SETAS-------------------------------------------------------
 	Objeto* setaZ;
 	setaZ = (Objeto*)malloc(sizeof(Objeto));
 	setaZ->bitmap = al_load_bitmap("Imgs/setaZ.png");
 	setaZ->altura = 100;
 	setaZ->largura = 100;
 	setaZ->x = 310;
-	setaZ->y = 560;   
-
+	setaZ->y = 560;
+	//a
 	Objeto* setaN;
 	setaN = (Objeto*)malloc(sizeof(Objeto));
 	setaN->bitmap = al_load_bitmap("Imgs/setaN.png");
@@ -230,7 +230,7 @@ int JogarFase7Mapa(ALLEGRO_DISPLAY* janela, ALLEGRO_EVENT_QUEUE* fila_eventos, P
 	setaT->largura = 100;
 	setaT->x = 910;
 	setaT->y = 560;
-//=========================================================================================================
+	//=========================================================================================================
 
 
 	ALLEGRO_BITMAP* btn2 = al_load_bitmap("Imgs/botao.png");
